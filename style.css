@@ -95,7 +95,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 150px;
+    padding: 100px 0px;
 }
 
 .content1 {
@@ -104,7 +104,7 @@ a {
     align-items: center;
     gap: 48px;
     flex: auto;
-    padding-bottom: 100px;
+    padding: 0 150px 100px;
 }
 
 .content .content1 .content1-header-text {
@@ -138,3 +138,27 @@ a {
     width: 160px;
     text-align: center;
 }
+
+.content2 {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.content2 .quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 320px;
+}
+
+.content2 .quote-container .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.content2 .quote-container .quote-writer {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
