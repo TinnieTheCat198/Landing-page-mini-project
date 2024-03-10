@@ -54,8 +54,7 @@ a {
 
 .hero .container-01 {
     display: flex;
-    max-width: 600px;
-    min-height: 300px;
+    max-width: 500px;
     flex-flow: column wrap;
     flex: auto;
     gap: 10px;
@@ -82,10 +81,9 @@ a {
 
 .hero .hero-image {
     display: flex;
-    max-width: 600px;
-    min-height: 300px; 
+    width: 500px;
+    height: 300px; 
     background-color: gray;
-    flex: auto;
     justify-content: center;
     align-items: center;
 }
@@ -95,7 +93,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 0px;
+    padding: 100px 0px 0px;
 }
 
 .content1 {
@@ -164,19 +162,19 @@ a {
 
 .content3 {
     padding: 72px 0px;
+    flex: auto;
 }
 
 .content3 .box-container {
     display: flex;
-    width: 700px;
     min-width: 100px;
     padding: 48px 80px;
-    display: flex;
     background-color: #3882F6;
     flex-wrap: wrap;
     border-radius: 8px ;
     justify-content: space-between;
     gap: 30px;
+    flex: auto;
 }
 
 .content3 .box-container .text-container {
@@ -200,4 +198,11 @@ a {
     font-weight: 800;
 }
 
-
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-content: center;
+    padding: 32px 150px;
+}
