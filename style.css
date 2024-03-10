@@ -162,3 +162,42 @@ a {
     align-self: flex-end;
 }
 
+.content3 {
+    padding: 72px 0px;
+}
+
+.content3 .box-container {
+    display: flex;
+    width: 700px;
+    min-width: 100px;
+    padding: 48px 80px;
+    display: flex;
+    background-color: #3882F6;
+    flex-wrap: wrap;
+    border-radius: 8px ;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.content3 .box-container .text-container {
+    display: flex;
+    flex-direction: column;
+    color:#F9FAF8;
+}
+
+.content3 .box-container .text-container .content3-header-text {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.content3 .box-container button {
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 8px 20px;
+    max-width: 150px;
+    font-weight: 800;
+}
+
+
